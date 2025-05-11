@@ -1,0 +1,9 @@
+Apc Customize UI++ (Not needed) by drcika
+Aura Spirit Dracule Theme (Needed) by JoseMurilloc
+Code runner (Integrated terminal -> Needed) by Jun Han
+Custom UI Style (NEEDED) by subframe7536
+Debugger for Java by Microsoft
+Extension Pack for Java by Microsoft
+Material Icon Theme by Philipp Kief (Needed)
+Prettier by Prettier
+Language Support for Java
