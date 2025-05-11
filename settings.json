@@ -1,6 +1,6 @@
 {
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
-  "workbench.editor.showTabs": "single",
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)", // Change theme
+  "workbench.editor.showTabs": "single", // Makes tab single (On click which file can be changed)
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
@@ -140,6 +140,7 @@
     "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
     "gleam": "gleam run -m $fileNameWithoutExt",
     "asm": "cd $dir && nasm -f elf64 $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+    // Syntax: "name": "cd $dir && do stuff"
   },
   "code-runner.executorMapByFileExtension": {
 
@@ -179,6 +180,8 @@
     ".spwn": "spwn build",
     ".pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
     ".gleam": "gleam run -m $fileNameWithoutExt",
+    // ADDING .s and .asm to my code map,
+    // syntax: ".filextension": "cd $dir && do stuff"
     ".s": "cd $dir && nasm -f elf64 $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt",
     ".asm": "cd $dir && nasm -f elf64 $fileName -o $fileNameWithoutExt.o && ld $fileNameWithoutExt.o -o $fileNameWithoutExt && ./$fileNameWithoutExt",
   },
