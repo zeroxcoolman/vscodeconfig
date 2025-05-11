@@ -1,2 +1,12 @@
 # Feel free to use my config (or fork)
-### It's just a config, do whatever you want!
+----------
+# Code Executor Map Syntax:
+- "name": "do something",
+----------
+# File extension syntax: (What code runner sees a file extension as)
+- ".filextension": "do something"
+----------
+# $ Placeholders (That you'll need)
+- $dir
+- $fileName
+- $fileNameWithoutExt
